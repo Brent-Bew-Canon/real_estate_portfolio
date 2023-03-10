@@ -41,7 +41,7 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    flex-basis: 20%;
+    flex-basis: 30%;
     padding-right: 3%;
 }
 
@@ -84,4 +84,16 @@ a {
 
 a:hover {
     color: rgb(0, 162, 255);
+}
+
+.image-section-drone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-section-drone img {
+    height: 30vw;
+    padding-bottom: 1vw;
 }
