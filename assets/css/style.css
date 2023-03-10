@@ -97,3 +97,15 @@ a:hover {
     height: 30vw;
     padding-bottom: 1vw;
 }
+
+@media screen and (max-width: 1200px) {
+    header ul {
+        flex-basis: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header ul {
+        flex-basis: 85%;
+    }
+}
